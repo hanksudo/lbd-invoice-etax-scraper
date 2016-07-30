@@ -1,6 +1,6 @@
 # lbd-receipt-scraper
 
-Learn by doing - 抓下台灣統一發票對獎號碼
+Learning by doing - 抓下台灣統一發票對獎號碼
 
 ## Usage
 
@@ -20,5 +20,4 @@ python app.py
 
 ## Dependencies
 
-- [beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/bs4/)
-Screen-scraping library
+- [beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/bs4/) Screen-scraping library
