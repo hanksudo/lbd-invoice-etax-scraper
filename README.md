@@ -1,4 +1,4 @@
-# lbd-receipt-scraper
+# lbd-invoice-etax-scraper
 
 Learning by doing - 抓下台灣統一發票對獎號碼
 
@@ -20,14 +20,22 @@ docker run --rm hanksudo/invoice-etax-scrapper
 
 ## Output
 
-```
-68789003
-53077074
-69796177、76868760、14952048
-000、059、478、569
+```bash
+特別獎
+    59647042
+特獎
+    01260528
+頭獎
+    01616970
+    69921388
+    53451508
+增開六獎
+    710
+    585
+    633
 ```
 
 ## References
 
-- [beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/bs4/) Screen-scraping library
+- [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs4/) is a Python library for pulling data out of HTML and XML files.
 - [統一發票](http://invoice.etax.nat.gov.tw/)
